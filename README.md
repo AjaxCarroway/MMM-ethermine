@@ -30,7 +30,7 @@ modules: [
 
 | Option           | Description
 |----------------- |-----------
-| `updateInterval` | <br/> Rate at which module updates (also determines speed of fade in/fade out) <br/><br/>If you want to increase the updateInterval, you have to also increase the time of fadeInTable and fadeInShort in ethermine.css for the fade to work properly. <br/><br/>For instance, if I changed updateInterval to 40000, then I would need to change the animation for fadeInTable to “fadeIn 40s linear infinite” <br/> <br/>Also fadeInShort’s animation would be changed to “fadeIn 39s linear infinite” <br/> <br>
+| `updateInterval` | <br/> Rate at which module updates (also determines speed of fade in/fade out) <br/><br/>If you want to increase the updateInterval, you have to also increase the time of fadeInTable and fadeInShort in `ethermine.css` for the fade to work properly. <br/><br/>For instance, if you changed updateInterval to 40000, then you would need to change the animation for fadeInTable to “fadeIn 40s linear infinite” <br/> <br/>Also fadeInShort’s animation would be changed to “fadeIn 39s linear infinite” <br/> <br>
 | `address`	   | <br/>Ethereum address that is used to retrieve information about the miners working for it on https://api.ethermine.org/<br/>
 
 ## Other notes
