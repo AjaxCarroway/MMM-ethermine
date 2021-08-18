@@ -31,19 +31,6 @@ modules: [
 | Option           | Description
 |----------------- |-----------
 | `updateInterval` | <br/> Rate at which module updates (also determines speed of fade in/fade out) <br/><br/>If you want to increase the updateInterval, you have to also increase the time of fadeInTable and fadeInShort in ethermine.css for the fade to work properly. <br/><br/>For instance, if I changed updateInterval to 40000, then I would need to change the animation for fadeInTable to “fadeIn 40s linear infinite” <br/> <br/>Also fadeInShort’s animation would be changed to “fadeIn 39s linear infinite” <br/> <br>
-| `address`	   | *Optional*<br/>The exchange used to get the data<br/><br/>Can be any item from <a href="https://api.cryptowat.ch/markets">THIS LIST</a> with a *currencyPair* of *ethusd* <br><br>**Type:** `String` <br>Default "kraken"
+| `address`	   | <br/>Ethereum address that is used to retrieve information about the miners working for it on https://api.ethermine.org/<br/>
 
 
-## To Do
-* **Create issues to track these**
-* ~API allows for different exchanges, allow setting this via configuration~
-* ~24h high/low values on the ticker~
-* Last change indicator (Green = price went up, Red = Price went down)
-* Current hashrate for mining rig
-* Alert when miner goes offline
-* Average hashrate for mining rig
-* Pending payout for mining
-* Mining calculator based on average mining
-* Convert USD value to local currency (Configurable - ZAR in my case)
-* Add ticker graph (minute, hour, day, week, month, year)
-* Possible future extensibility to allow for different cryptocurrencies
