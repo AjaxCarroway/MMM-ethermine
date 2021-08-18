@@ -31,7 +31,6 @@ modules: [
 | Option           | Description
 |----------------- |-----------
 | `updateInterval` | <br/> Rate at which module updates (also determines speed of fade in/fade out) <br/><br/>If you want to increase the updateInterval, you have to also increase the time of fadeInTable and fadeInShort in ethermine.css for the fade to work properly. <br/><br/>For instance, if I changed updateInterval to 40000, then I would need to change the animation for fadeInTable to “fadeIn 40s linear infinite” <br/> <br/>Also fadeInShort’s animation would be changed to “fadeIn 39s linear infinite” <br/> <br>
-
 | `address`	   | *Optional*<br/>The exchange used to get the data<br/><br/>Can be any item from <a href="https://api.cryptowat.ch/markets">THIS LIST</a> with a *currencyPair* of *ethusd* <br><br>**Type:** `String` <br>Default "kraken"
 
 
