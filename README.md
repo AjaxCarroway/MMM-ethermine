@@ -36,6 +36,7 @@ modules: [
 ## Other notes
 
 I am a novice at MagicMirror development, so the itself code isn't very clean.
-If you think I am deserving of money, you can donate to this ethereum address: `0xAD48Bae6795b8B2c1F6CA65473EF726cd7748d29`
+
+If you think I am deserving of money, you can donate to my ethereum address: `0xAD48Bae6795b8B2c1F6CA65473EF726cd7748d29`
 
 
