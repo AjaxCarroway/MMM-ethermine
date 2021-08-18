@@ -4,8 +4,10 @@ A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> module to tr
 
 
 ## Installing the module
-Clone this repository in your `~/MagicMirror/modules/` folder `( $ cd ~MagicMirror/modules/ )`:
+
 ````javascript
+cd MagicMirror
+cd modules
 git clone https://github.com/AjaxCarroway/MMM-ethermine
 ````
 
