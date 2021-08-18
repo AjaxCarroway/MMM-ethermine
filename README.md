@@ -6,7 +6,7 @@ A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> module to tr
 ## Installing the module
 Clone this repository in your `~/MagicMirror/modules/` folder `( $ cd ~MagicMirror/modules/ )`:
 ````javascript
-git clone https://github.com/Deathrid3r747/MMM-ethereum
+git clone https://github.com/AjaxCarroway/MMM-ethermine
 ````
 
 ## Using the module
