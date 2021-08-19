@@ -1,0 +1,81 @@
+
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.shortred {
+  color: red;
+}
+.green {
+  color: green;
+  text-indent: 20px;
+}
+.lgreen{
+  color:lightgreen;
+}
+.indent{
+  text-indent: 20px;
+}
+.shortgreen {
+  color: green;
+}
+.blue {
+  color: lightblue;
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: 800;
+}
+.title {
+  text-decoration: underline;
+  color: yellow;
+  font-weight: 600;
+}
+fadeInTable{
+  height: 50px;
+  table-layout: fixed;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  overflow y: auto;
+  border-collapse: separate;
+  border-spacing: 2px;-
+  border-top: 5px;
+  animation: fadeIn 30s linear infinite;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  5% {
+    opacity:1;
+  }
+  95% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+fadeInShort{
+  height: 50px;
+  table-layout: fixed;
+  width: 500px;
+  display: table;
+  overflow y: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 2px;-
+  border-top: 5px;
+  animation: fadeIn 28s linear infinite;
+}
+
