@@ -2,6 +2,7 @@
 A <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> module to track miner rig statistics for Ethereum miners on 
 <a href="https://ethermine.org">ethermine.org</a>
 
+![Screenshot](MMM-ethermine_preview.png)
 
 ## Installing the module
 
