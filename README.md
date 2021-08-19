@@ -40,4 +40,5 @@ Also the fade-in fade-out effect is weird for the first iteration.
 
 If you think I am deserving of money, you can donate to my ethereum address: `0xAD48Bae6795b8B2c1F6CA65473EF726cd7748d29`
 
+I based the API request code off of NeilDuToit92's <a href= "https://github.com/Deathrid3r747/MMM-ethereum">MMM-ethereum</a>
 
